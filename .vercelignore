@@ -1,0 +1,19 @@
+# Exclude large media, raw data, presentations, and build output from Vercel function bundle
+*.mp4
+*.pptx
+scratch_ppt_imgs/
+mycoclassify_ui.html
+train.csv
+test.csv
+sample_submission.csv
+catboost_info/
+Mushroom_Classification.ipynb
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+node_modules/
+dist/
+.git/
