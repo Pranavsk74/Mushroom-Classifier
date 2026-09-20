@@ -37,6 +37,7 @@ Thumbs.db
 
 # Large Media & Temporary Working Files
 *.mp4
+!frontend/public/assets/hero_forest_video.mp4
 *.pptx
 mycoclassify_ui.html
 scratch_ppt_imgs/
