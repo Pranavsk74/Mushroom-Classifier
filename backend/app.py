@@ -34,6 +34,7 @@ app.add_middleware(
 )
 
 @app.get("/health", status_code=status.HTTP_200_OK)
+@app.get("/api/health", status_code=status.HTTP_200_OK)
 def health_check():
     return {
         "status": "ok",
@@ -42,12 +43,14 @@ def health_check():
     }
 
 @app.get("/metadata", response_model=ModelMetadataResponse)
+@app.get("/api/metadata", response_model=ModelMetadataResponse)
 def get_model_metadata():
     if not model_service.metadata:
         raise HTTPException(status_code=500, detail="Model metadata uninitialized.")
     return model_service.metadata
 
 @app.get("/analytics")
+@app.get("/api/analytics")
 def get_dataset_analytics():
     try:
         data = analytics_service.compute_analytics()
@@ -55,8 +58,8 @@ def get_dataset_analytics():
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to compute dataset analytics: {str(e)}")
 
-
 @app.post("/predict", response_model=PredictionResponse)
+@app.post("/api/predict", response_model=PredictionResponse)
 def predict_mushroom(input_data: ObservationInput):
     try:
         raw_dict = input_data.dict(by_alias=True)
@@ -69,6 +72,7 @@ def predict_mushroom(input_data: ObservationInput):
         )
 
 @app.post("/report")
+@app.post("/api/report")
 def generate_report(req: ReportRequest):
     try:
         pdf_bytes = generate_pdf_report(req.specimen_data, req.prediction_result)
@@ -87,4 +91,3 @@ if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8000))
     uvicorn.run("backend.app:app", host="0.0.0.0", port=port, reload=True)
-
