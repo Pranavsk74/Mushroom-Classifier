@@ -1,0 +1,1841 @@
+{
+  "target_distribution": {
+    "total": 7000,
+    "edible": {
+      "count": 3712,
+      "percentage": 53.03
+    },
+    "poisonous": {
+      "count": 3288,
+      "percentage": 46.97
+    }
+  },
+  "missing_values": [
+    {
+      "column": "odor",
+      "missing_count": 3236,
+      "percentage": 46.23
+    },
+    {
+      "column": "stalk-root",
+      "missing_count": 192,
+      "percentage": 2.74
+    },
+    {
+      "column": "ring-number",
+      "missing_count": 36,
+      "percentage": 0.51
+    },
+    {
+      "column": "ring-type",
+      "missing_count": 36,
+      "percentage": 0.51
+    }
+  ],
+  "odor_breakdown": [
+    {
+      "category": "Missing",
+      "raw_value": "Missing",
+      "edible": 3168,
+      "poisonous": 68,
+      "total": 3236
+    },
+    {
+      "category": "Foul",
+      "raw_value": "foul",
+      "edible": 0,
+      "poisonous": 1968,
+      "total": 1968
+    },
+    {
+      "category": "Fishy",
+      "raw_value": "fishy",
+      "edible": 0,
+      "poisonous": 384,
+      "total": 384
+    },
+    {
+      "category": "Spicy",
+      "raw_value": "spicy",
+      "edible": 0,
+      "poisonous": 384,
+      "total": 384
+    },
+    {
+      "category": "Almond",
+      "raw_value": "almond",
+      "edible": 272,
+      "poisonous": 0,
+      "total": 272
+    },
+    {
+      "category": "Anise",
+      "raw_value": "anise",
+      "edible": 272,
+      "poisonous": 0,
+      "total": 272
+    },
+    {
+      "category": "Pungent",
+      "raw_value": "pungent",
+      "edible": 0,
+      "poisonous": 256,
+      "total": 256
+    },
+    {
+      "category": "Creosote",
+      "raw_value": "creosote",
+      "edible": 0,
+      "poisonous": 192,
+      "total": 192
+    },
+    {
+      "category": "Musty",
+      "raw_value": "musty",
+      "edible": 0,
+      "poisonous": 36,
+      "total": 36
+    }
+  ],
+  "gill_size_breakdown": [
+    {
+      "category": "Broad",
+      "raw_value": "broad",
+      "edible": 3472,
+      "poisonous": 1656,
+      "total": 5128
+    },
+    {
+      "category": "Narrow",
+      "raw_value": "narrow",
+      "edible": 240,
+      "poisonous": 1632,
+      "total": 1872
+    }
+  ],
+  "spore_print_breakdown": [
+    {
+      "category": "Brown",
+      "raw_value": "brown",
+      "edible": 1568,
+      "poisonous": 224,
+      "total": 1792
+    },
+    {
+      "category": "White",
+      "raw_value": "white",
+      "edible": 528,
+      "poisonous": 1220,
+      "total": 1748
+    },
+    {
+      "category": "Black",
+      "raw_value": "black",
+      "edible": 1520,
+      "poisonous": 224,
+      "total": 1744
+    },
+    {
+      "category": "Chocolate",
+      "raw_value": "chocolate",
+      "edible": 48,
+      "poisonous": 1584,
+      "total": 1632
+    },
+    {
+      "category": "Purple",
+      "raw_value": "purple",
+      "edible": 48,
+      "poisonous": 0,
+      "total": 48
+    },
+    {
+      "category": "Green",
+      "raw_value": "green",
+      "edible": 0,
+      "poisonous": 36,
+      "total": 36
+    }
+  ],
+  "habitat_breakdown": [
+    {
+      "category": "Woods",
+      "raw_value": "woods",
+      "edible": 1880,
+      "poisonous": 1268,
+      "total": 3148
+    },
+    {
+      "category": "Grasses",
+      "raw_value": "grasses",
+      "edible": 1408,
+      "poisonous": 740,
+      "total": 2148
+    },
+    {
+      "category": "Paths",
+      "raw_value": "paths",
+      "edible": 136,
+      "poisonous": 1008,
+      "total": 1144
+    },
+    {
+      "category": "Urban",
+      "raw_value": "urban",
+      "edible": 96,
+      "poisonous": 272,
+      "total": 368
+    },
+    {
+      "category": "Waste",
+      "raw_value": "waste",
+      "edible": 192,
+      "poisonous": 0,
+      "total": 192
+    }
+  ],
+  "bruises_breakdown": [
+    {
+      "category": "No",
+      "raw_value": "no",
+      "edible": 1216,
+      "poisonous": 2708,
+      "total": 3924
+    },
+    {
+      "category": "Bruises",
+      "raw_value": "bruises",
+      "edible": 2496,
+      "poisonous": 580,
+      "total": 3076
+    }
+  ],
+  "ring_number_breakdown": [
+    {
+      "category": "1.0",
+      "raw_value": "1.0",
+      "edible": 3184,
+      "poisonous": 3216,
+      "total": 6400
+    },
+    {
+      "category": "2.0",
+      "raw_value": "2.0",
+      "edible": 528,
+      "poisonous": 36,
+      "total": 564
+    },
+    {
+      "category": "Missing",
+      "raw_value": "Missing",
+      "edible": 0,
+      "poisonous": 36,
+      "total": 36
+    }
+  ],
+  "cap_shape_breakdown": [
+    {
+      "category": "Convex",
+      "raw_value": "convex",
+      "edible": 1756,
+      "poisonous": 1516,
+      "total": 3272
+    },
+    {
+      "category": "Flat",
+      "raw_value": "flat",
+      "edible": 1532,
+      "poisonous": 1342,
+      "total": 2874
+    },
+    {
+      "category": "Knobbed",
+      "raw_value": "knobbed",
+      "edible": 164,
+      "poisonous": 404,
+      "total": 568
+    },
+    {
+      "category": "Bell",
+      "raw_value": "bell",
+      "edible": 228,
+      "poisonous": 26,
+      "total": 254
+    },
+    {
+      "category": "Sunken",
+      "raw_value": "sunken",
+      "edible": 32,
+      "poisonous": 0,
+      "total": 32
+    }
+  ],
+  "pca_cluster_points": [
+    {
+      "pca_x": 1.494,
+      "pca_y": -0.655,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.337,
+      "pca_y": 1.346,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.366,
+      "pca_y": 0.787,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.518,
+      "pca_y": -0.526,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.419,
+      "pca_y": 1.974,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.226,
+      "pca_y": 1.262,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.504,
+      "pca_y": -1.757,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Spicy"
+    },
+    {
+      "pca_x": -1.53,
+      "pca_y": -1.715,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -1.729,
+      "pca_y": -1.607,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.095,
+      "pca_y": -1.957,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.358,
+      "pca_y": 0.545,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Almond"
+    },
+    {
+      "pca_x": -1.148,
+      "pca_y": -2.09,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Spicy"
+    },
+    {
+      "pca_x": -2.525,
+      "pca_y": 1.779,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.716,
+      "pca_y": 1.028,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.106,
+      "pca_y": -1.52,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Spicy"
+    },
+    {
+      "pca_x": 1.414,
+      "pca_y": 0.867,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.151,
+      "pca_y": -1.909,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.9,
+      "pca_y": 1.015,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.068,
+      "pca_y": 1.071,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.213,
+      "pca_y": 1.24,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.655,
+      "pca_y": 1.699,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.527,
+      "pca_y": 1.152,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.367,
+      "pca_y": 0.943,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.138,
+      "pca_y": -0.083,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Anise"
+    },
+    {
+      "pca_x": -1.562,
+      "pca_y": -2.036,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 0.357,
+      "pca_y": -1.529,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.433,
+      "pca_y": -0.606,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.396,
+      "pca_y": 1.94,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.693,
+      "pca_y": 0.007,
+      "cluster": 2,
+      "class": "Poisonous",
+      "odor": "Pungent"
+    },
+    {
+      "pca_x": 2.411,
+      "pca_y": 1.236,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.741,
+      "pca_y": 1.162,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.29,
+      "pca_y": 0.256,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Anise"
+    },
+    {
+      "pca_x": -1.662,
+      "pca_y": -1.664,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Spicy"
+    },
+    {
+      "pca_x": -2.618,
+      "pca_y": 1.86,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.662,
+      "pca_y": 0.851,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.315,
+      "pca_y": -1.572,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.432,
+      "pca_y": 1.864,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.168,
+      "pca_y": 1.346,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.444,
+      "pca_y": -1.907,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.52,
+      "pca_y": 1.886,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.406,
+      "pca_y": 0.952,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.551,
+      "pca_y": -0.338,
+      "cluster": 2,
+      "class": "Poisonous",
+      "odor": "Pungent"
+    },
+    {
+      "pca_x": 0.596,
+      "pca_y": -0.3,
+      "cluster": 2,
+      "class": "Poisonous",
+      "odor": "Pungent"
+    },
+    {
+      "pca_x": 0.291,
+      "pca_y": -1.315,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.087,
+      "pca_y": 0.879,
+      "cluster": 2,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.997,
+      "pca_y": 1.07,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -0.095,
+      "pca_y": -0.205,
+      "cluster": 2,
+      "class": "Poisonous",
+      "odor": "Creosote"
+    },
+    {
+      "pca_x": 1.591,
+      "pca_y": 0.283,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.416,
+      "pca_y": -2.018,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Spicy"
+    },
+    {
+      "pca_x": 0.724,
+      "pca_y": 0.712,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Anise"
+    },
+    {
+      "pca_x": -1.154,
+      "pca_y": -1.952,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.115,
+      "pca_y": 0.052,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Almond"
+    },
+    {
+      "pca_x": -2.379,
+      "pca_y": 1.998,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.502,
+      "pca_y": 1.762,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.594,
+      "pca_y": 1.641,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.646,
+      "pca_y": 1.676,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.653,
+      "pca_y": 1.691,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 0.51,
+      "pca_y": -0.508,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.533,
+      "pca_y": -1.404,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.24,
+      "pca_y": -1.478,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.413,
+      "pca_y": -0.749,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.595,
+      "pca_y": 1.01,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.306,
+      "pca_y": -1.491,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.404,
+      "pca_y": 1.984,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.202,
+      "pca_y": 0.976,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.733,
+      "pca_y": -1.676,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.352,
+      "pca_y": -1.341,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.651,
+      "pca_y": 1.863,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.682,
+      "pca_y": 1.667,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.52,
+      "pca_y": 1.891,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.843,
+      "pca_y": 0.629,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.22,
+      "pca_y": 0.126,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Almond"
+    },
+    {
+      "pca_x": -2.653,
+      "pca_y": 1.695,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -1.401,
+      "pca_y": -2.036,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Fishy"
+    },
+    {
+      "pca_x": 0.144,
+      "pca_y": -2.014,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.563,
+      "pca_y": 1.007,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.262,
+      "pca_y": 1.287,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.562,
+      "pca_y": 1.813,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.985,
+      "pca_y": 0.702,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.516,
+      "pca_y": 0.79,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.914,
+      "pca_y": 0.099,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Almond"
+    },
+    {
+      "pca_x": -2.52,
+      "pca_y": 1.89,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.592,
+      "pca_y": 1.84,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -1.708,
+      "pca_y": -1.474,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.487,
+      "pca_y": 1.063,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.305,
+      "pca_y": 1.225,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.391,
+      "pca_y": -1.626,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.797,
+      "pca_y": -0.526,
+      "cluster": 2,
+      "class": "Poisonous",
+      "odor": "Pungent"
+    },
+    {
+      "pca_x": 0.16,
+      "pca_y": -2.105,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.571,
+      "pca_y": 1.828,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.536,
+      "pca_y": 1.827,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 0.478,
+      "pca_y": -1.277,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.326,
+      "pca_y": -1.488,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.33,
+      "pca_y": 0.787,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.591,
+      "pca_y": -2.171,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -0.003,
+      "pca_y": 0.04,
+      "cluster": 2,
+      "class": "Poisonous",
+      "odor": "Creosote"
+    },
+    {
+      "pca_x": -2.643,
+      "pca_y": 1.701,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.601,
+      "pca_y": 1.846,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.563,
+      "pca_y": 1.801,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.392,
+      "pca_y": 1.974,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.481,
+      "pca_y": 1.848,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.414,
+      "pca_y": 2.005,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.082,
+      "pca_y": -1.428,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.031,
+      "pca_y": 0.938,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.422,
+      "pca_y": 1.806,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -1.285,
+      "pca_y": -1.752,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.809,
+      "pca_y": 0.61,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.561,
+      "pca_y": 1.786,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.922,
+      "pca_y": 1.11,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.366,
+      "pca_y": -1.946,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Spicy"
+    },
+    {
+      "pca_x": 1.657,
+      "pca_y": 1.033,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.532,
+      "pca_y": -1.514,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Fishy"
+    },
+    {
+      "pca_x": 2.677,
+      "pca_y": 1.219,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.092,
+      "pca_y": -1.413,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.893,
+      "pca_y": 0.857,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.108,
+      "pca_y": -1.627,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Fishy"
+    },
+    {
+      "pca_x": -2.37,
+      "pca_y": 1.965,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.412,
+      "pca_y": 0.341,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.338,
+      "pca_y": 0.846,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Almond"
+    },
+    {
+      "pca_x": 0.954,
+      "pca_y": 0.626,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Anise"
+    },
+    {
+      "pca_x": 0.857,
+      "pca_y": -0.245,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Anise"
+    },
+    {
+      "pca_x": -1.102,
+      "pca_y": -2.184,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Spicy"
+    },
+    {
+      "pca_x": 1.833,
+      "pca_y": -1.669,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.537,
+      "pca_y": -1.695,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.453,
+      "pca_y": 0.442,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -0.969,
+      "pca_y": -1.816,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Fishy"
+    },
+    {
+      "pca_x": -2.414,
+      "pca_y": 1.906,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.589,
+      "pca_y": 1.06,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.186,
+      "pca_y": -1.538,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.575,
+      "pca_y": 1.131,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.392,
+      "pca_y": -1.332,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.796,
+      "pca_y": -1.821,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -1.106,
+      "pca_y": -1.849,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.416,
+      "pca_y": 1.213,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -2.547,
+      "pca_y": 1.878,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 2.477,
+      "pca_y": 0.7,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 2.087,
+      "pca_y": 0.807,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.512,
+      "pca_y": 0.679,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -1.564,
+      "pca_y": -2.188,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Fishy"
+    },
+    {
+      "pca_x": 2.435,
+      "pca_y": 1.135,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 0.564,
+      "pca_y": -0.432,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.215,
+      "pca_y": 0.42,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Anise"
+    },
+    {
+      "pca_x": -1.383,
+      "pca_y": -1.943,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.115,
+      "pca_y": 1.007,
+      "cluster": 2,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": 1.34,
+      "pca_y": 0.532,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.727,
+      "pca_y": 0.559,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": 1.044,
+      "pca_y": -1.65,
+      "cluster": 2,
+      "class": "Edible",
+      "odor": "Nan"
+    },
+    {
+      "pca_x": -0.97,
+      "pca_y": -2.19,
+      "cluster": 0,
+      "class": "Poisonous",
+      "odor": "Spicy"
+    },
+    {
+      "pca_x": -2.583,
+      "pca_y": 1.907,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    },
+    {
+      "pca_x": -2.438,
+      "pca_y": 2.024,
+      "cluster": 1,
+      "class": "Poisonous",
+      "odor": "Foul"
+    }
+  ],
+  "validation_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "confusion_matrix": {
+    "true_edible": 742,
+    "false_poisonous": 0,
+    "false_edible": 0,
+    "true_poisonous": 658,
+    "total_validation_samples": 1400
+  },
+  "predicted_vs_actual_samples": [
+    {
+      "id": 1,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 2,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.67%",
+      "odor": "Musty",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 3,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 4,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 5,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.93%",
+      "odor": "Almond",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 6,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.98%",
+      "odor": "Spicy",
+      "gill_size": "Narrow",
+      "habitat": "Paths"
+    },
+    {
+      "id": 7,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.98%",
+      "odor": "Spicy",
+      "gill_size": "Narrow",
+      "habitat": "Paths"
+    },
+    {
+      "id": 8,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.67%",
+      "odor": "Musty",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 9,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 10,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.98%",
+      "odor": "Spicy",
+      "gill_size": "Narrow",
+      "habitat": "Woods"
+    },
+    {
+      "id": 11,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Paths"
+    },
+    {
+      "id": 12,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Narrow",
+      "habitat": "Paths"
+    },
+    {
+      "id": 13,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Fishy",
+      "gill_size": "Narrow",
+      "habitat": "Woods"
+    },
+    {
+      "id": 14,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.88%",
+      "odor": "Anise",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 15,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Narrow",
+      "habitat": "Paths"
+    },
+    {
+      "id": 16,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.95%",
+      "odor": "Creosote",
+      "gill_size": "Narrow",
+      "habitat": "Woods"
+    },
+    {
+      "id": 17,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.95%",
+      "odor": "Creosote",
+      "gill_size": "Narrow",
+      "habitat": "Woods"
+    },
+    {
+      "id": 18,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Paths"
+    },
+    {
+      "id": 19,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.94%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 20,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 21,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.98%",
+      "odor": "Fishy",
+      "gill_size": "Narrow",
+      "habitat": "Woods"
+    },
+    {
+      "id": 22,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 23,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 24,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.96%",
+      "odor": "Creosote",
+      "gill_size": "Narrow",
+      "habitat": "Woods"
+    },
+    {
+      "id": 25,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.98%",
+      "odor": "Spicy",
+      "gill_size": "Narrow",
+      "habitat": "Paths"
+    },
+    {
+      "id": 26,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 27,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Spicy",
+      "gill_size": "Narrow",
+      "habitat": "Paths"
+    },
+    {
+      "id": 28,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.94%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 29,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 30,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 31,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.98%",
+      "odor": "Fishy",
+      "gill_size": "Narrow",
+      "habitat": "Woods"
+    },
+    {
+      "id": 32,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 33,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 34,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 35,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 36,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 37,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 38,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.94%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 39,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 40,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 41,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Foul",
+      "gill_size": "Narrow",
+      "habitat": "Woods"
+    },
+    {
+      "id": 42,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.89%",
+      "odor": "Anise",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 43,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.94%",
+      "odor": "Foul",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 44,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 45,
+      "actual": "Poisonous",
+      "predicted": "Poisonous",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Spicy",
+      "gill_size": "Narrow",
+      "habitat": "Paths"
+    },
+    {
+      "id": 46,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Grasses"
+    },
+    {
+      "id": 47,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.98%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Waste"
+    },
+    {
+      "id": 48,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 49,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    },
+    {
+      "id": 50,
+      "actual": "Edible",
+      "predicted": "Edible",
+      "is_correct": true,
+      "confidence": "99.99%",
+      "odor": "Nan",
+      "gill_size": "Broad",
+      "habitat": "Woods"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "model_name": "CatBoostClassifier (Tuned Pipeline)",
+  "target_mapping": {
+    "e": "Edible (Class 0)",
+    "p": "Poisonous (Class 1)"
+  },
+  "training_samples": 7000,
+  "metrics": {
+    "validation_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "cross_val_mean_accuracy": 1.0,
+    "cross_val_std_accuracy": 0.0
+  },
+  "compared_models": [
+    {
+      "model": "CatBoost",
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "cv_accuracy": 1.0,
+      "cv_std": 0.0,
+      "status": "Selected Best Model"
+    },
+    {
+      "model": "Random Forest (Tuned)",
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "cv_accuracy": 1.0,
+      "cv_std": 0.0,
+      "status": "Top Candidate"
+    },
+    {
+      "model": "XGBoost (Tuned)",
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "cv_accuracy": 1.0,
+      "cv_std": 0.0,
+      "status": "Top Candidate"
+    },
+    {
+      "model": "Soft Voting Ensemble",
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "cv_accuracy": 1.0,
+      "cv_std": 0.0,
+      "status": "Ensemble"
+    },
+    {
+      "model": "Stacking Ensemble",
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "cv_accuracy": 1.0,
+      "cv_std": 0.0,
+      "status": "Ensemble"
+    },
+    {
+      "model": "Extra Trees Classifier",
+      "accuracy": 0.9986,
+      "f1": 0.9985,
+      "roc_auc": 1.0,
+      "cv_accuracy": 0.9982,
+      "cv_std": 0.0008,
+      "status": "Evaluated Baseline"
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.9979,
+      "f1": 0.9978,
+      "roc_auc": 1.0,
+      "cv_accuracy": 0.9975,
+      "cv_std": 0.0011,
+      "status": "Evaluated Baseline"
+    },
+    {
+      "model": "LightGBM Classifier",
+      "accuracy": 0.9971,
+      "f1": 0.997,
+      "roc_auc": 1.0,
+      "cv_accuracy": 0.9968,
+      "cv_std": 0.0014,
+      "status": "Evaluated Baseline"
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.9957,
+      "f1": 0.9955,
+      "roc_auc": 0.9956,
+      "cv_accuracy": 0.9951,
+      "cv_std": 0.0021,
+      "status": "Evaluated Baseline"
+    },
+    {
+      "model": "AdaBoost Classifier",
+      "accuracy": 0.9929,
+      "f1": 0.9927,
+      "roc_auc": 0.9997,
+      "cv_accuracy": 0.9921,
+      "cv_std": 0.0028,
+      "status": "Evaluated Baseline"
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9857,
+      "f1": 0.9852,
+      "roc_auc": 0.9987,
+      "cv_accuracy": 0.9849,
+      "cv_std": 0.0035,
+      "status": "Linear Baseline"
+    }
+  ],
+  "feature_importances": [
+    { "feature": "Odor (Foul)", "importance": 24.31 },
+    { "feature": "Spore Print Color (Green)", "importance": 18.92 },
+    { "feature": "Gill Size (Narrow)", "importance": 12.45 },
+    { "feature": "Odor (None)", "importance": 10.15 },
+    { "feature": "Habitat (Paths)", "importance": 8.64 },
+    { "feature": "Stalk Surface Below Ring (Silky)", "importance": 6.82 },
+    { "feature": "Gill Spacing (Close)", "importance": 5.12 },
+    { "feature": "Spore Print Color (Chocolate)", "importance": 4.55 },
+    { "feature": "Cap Surface (Grooved)", "importance": 3.88 },
+    { "feature": "Population (Clustered)", "importance": 2.76 },
+    { "feature": "Stalk Root (Bulbous)", "importance": 2.4 },
+    { "feature": "Ring Type (Large)", "importance": 1.8 }
+  ],
+  "achievement": "100/100 — IIT Madras",
+  "author": "S. Pranav"
+}

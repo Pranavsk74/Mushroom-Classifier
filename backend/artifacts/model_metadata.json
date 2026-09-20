@@ -1,0 +1,169 @@
+{
+  "model_name": "CatBoostClassifier (Tuned Pipeline)",
+  "target_mapping": {
+    "e": "Edible (Class 0)",
+    "p": "Poisonous (Class 1)"
+  },
+  "training_samples": 7000,
+  "metrics": {
+    "validation_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "cross_val_mean_accuracy": 1.0,
+    "cross_val_std_accuracy": 0.0
+  },
+  "compared_models": [
+    {
+      "model": "CatBoost",
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "status": "Selected Best Pipeline"
+    },
+    {
+      "model": "Random Forest (Tuned)",
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "status": "Candidate"
+    },
+    {
+      "model": "XGBoost (Tuned)",
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "status": "Candidate"
+    },
+    {
+      "model": "Soft Voting Ensemble",
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "status": "Ensemble"
+    },
+    {
+      "model": "Stacking Ensemble",
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "status": "Ensemble"
+    },
+    {
+      "model": "Extra Trees",
+      "accuracy": 0.9986,
+      "roc_auc": 1.0,
+      "status": "Baseline"
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.9979,
+      "roc_auc": 1.0,
+      "status": "Baseline"
+    },
+    {
+      "model": "LightGBM",
+      "accuracy": 0.9971,
+      "roc_auc": 1.0,
+      "status": "Baseline"
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.9957,
+      "roc_auc": 0.9956,
+      "status": "Baseline"
+    },
+    {
+      "model": "AdaBoost",
+      "accuracy": 0.9929,
+      "roc_auc": 0.9997,
+      "status": "Baseline"
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9857,
+      "roc_auc": 0.9987,
+      "status": "Baseline"
+    }
+  ],
+  "feature_importances": [
+    {
+      "feature": "odor_gill_size_Missing",
+      "importance": 32.7629
+    },
+    {
+      "feature": "odor_gill_color_Missing",
+      "importance": 20.838
+    },
+    {
+      "feature": "odor_Missing",
+      "importance": 18.5556
+    },
+    {
+      "feature": "odor_anise",
+      "importance": 8.2879
+    },
+    {
+      "feature": "odor_almond",
+      "importance": 7.9906
+    },
+    {
+      "feature": "odor_foul",
+      "importance": 2.1143
+    },
+    {
+      "feature": "bruises_bruises",
+      "importance": 2.0175
+    },
+    {
+      "feature": "stalk-surface-below-ring_scaly",
+      "importance": 1.1224
+    },
+    {
+      "feature": "spore-print-color_green",
+      "importance": 1.1049
+    },
+    {
+      "feature": "gill-size_narrow",
+      "importance": 0.822
+    },
+    {
+      "feature": "ring-type_pendant",
+      "importance": 0.6092
+    },
+    {
+      "feature": "odor_gill_size_almond_broad",
+      "importance": 0.5418
+    },
+    {
+      "feature": "stalk-surface-above-ring_silky",
+      "importance": 0.438
+    },
+    {
+      "feature": "cap-color_yellow",
+      "importance": 0.3595
+    },
+    {
+      "feature": "population_several",
+      "importance": 0.3374
+    },
+    {
+      "feature": "ring_spore_pendant_green",
+      "importance": 0.3344
+    },
+    {
+      "feature": "odor_gill_size_anise_broad",
+      "importance": 0.2498
+    },
+    {
+      "feature": "gill-spacing_close",
+      "importance": 0.2427
+    },
+    {
+      "feature": "bruises_no",
+      "importance": 0.2092
+    },
+    {
+      "feature": "stalk-color-below-ring_gray",
+      "importance": 0.1426
+    }
+  ],
+  "achievement": "100/100 \u2014 IIT Madras",
+  "author": "S. Pranav"
+}
