@@ -1,10 +1,28 @@
 import os
+import sys
+
+# Ensure root directory and backend directory are in Python path
+root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+backend_dir = os.path.dirname(os.path.abspath(__file__))
+if root_dir not in sys.path:
+    sys.path.insert(0, root_dir)
+if backend_dir not in sys.path:
+    sys.path.insert(0, backend_dir)
+
 from fastapi import FastAPI, HTTPException, status, Response
 from fastapi.middleware.cors import CORSMiddleware
-from backend.schemas import ObservationInput, PredictionResponse, ModelMetadataResponse, ReportRequest
-from backend.model_service import model_service
-from backend.analytics_service import analytics_service
-from backend.report_generator import generate_pdf_report
+
+try:
+    from backend.schemas import ObservationInput, PredictionResponse, ModelMetadataResponse, ReportRequest
+    from backend.model_service import model_service
+    from backend.analytics_service import analytics_service
+    from backend.report_generator import generate_pdf_report
+except ImportError:
+    from schemas import ObservationInput, PredictionResponse, ModelMetadataResponse, ReportRequest
+    from model_service import model_service
+    from analytics_service import analytics_service
+    from report_generator import generate_pdf_report
+
 
 app = FastAPI(
     title="MycoClassify API",

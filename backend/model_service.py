@@ -18,7 +18,10 @@ class ModelService:
 
         if not os.path.exists(model_path) or not os.path.exists(meta_path):
             print("Artifacts not found, executing train_model...")
-            from backend.train_model import train_and_export_model
+            try:
+                from backend.train_model import train_and_export_model
+            except ImportError:
+                from train_model import train_and_export_model
             train_and_export_model()
 
         self.model = joblib.load(model_path)
