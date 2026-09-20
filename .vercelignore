@@ -1,5 +1,6 @@
 # Exclude large media, raw data, presentations, and build output from Vercel function bundle
 *.mp4
+!frontend/public/assets/hero_forest_video.mp4
 *.pptx
 scratch_ppt_imgs/
 mycoclassify_ui.html

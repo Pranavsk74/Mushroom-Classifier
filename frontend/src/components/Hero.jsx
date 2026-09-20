@@ -25,6 +25,7 @@ export default function Hero() {
         loop
         muted
         playsInline
+        preload="auto"
         poster="/assets/hero_mushroom.jpg"
         style={{
           position: 'absolute',
